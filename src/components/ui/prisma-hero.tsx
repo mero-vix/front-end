@@ -220,7 +220,8 @@ const PrismaHero = () => {
             </motion.div>
             <div className="col-span-12 flex flex-col gap-5 pb-6 lg:col-span-4 lg:pb-10">
               
-              <motion.button
+              <motion.a
+                href="/Product"
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.7, ease: [0.16, 1, 0.3, 1] }}
@@ -230,7 +231,7 @@ const PrismaHero = () => {
                 <span className="flex h-9 w-9 items-center justify-center rounded-full bg-black transition-transform group-hover:scale-110 sm:h-10 sm:w-10">
                   <ArrowRight className="h-4 w-4" style={{ color: "#fd6b22" }} />
                 </span>
-              </motion.button>
+              </motion.a>
 
             </div>
           </div>

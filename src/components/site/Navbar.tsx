@@ -62,9 +62,9 @@ export function Navbar() {
           </ul>
 
           <div className="hidden lg:flex items-center gap-3">
-            <button className="text-sm font-medium bg-sand text-background px-4 py-2 rounded-full hover:scale-105 transition-transform glow-sand">
+            <a href="/Product" className="text-sm font-medium bg-sand text-background px-4 py-2 rounded-full hover:scale-105 transition-transform glow-sand">
               Sign Up
-            </button>
+            </a>
           </div>
 
           <button
@@ -99,9 +99,9 @@ export function Navbar() {
                 ))}
               </ul>
               <div className="mt-4 flex flex-col gap-2">
-                <button className="w-full bg-sand text-background rounded-full py-2 text-sm font-medium">
+                <a href="/Product" className="w-full bg-sand text-background rounded-full py-2 text-sm font-medium text-center">
                   Sign Up
-                </button>
+                </a>
               </div>
             </motion.div>
           )}
